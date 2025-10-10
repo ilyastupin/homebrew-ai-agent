@@ -3,7 +3,7 @@ class AiAgent < Formula
   homepage "https://ai.inpoint.dev/local-agent"
   version "2.1.1"
   url "https://raw.githubusercontent.com/ilyastupin/homebrew-ai-agent/master/ai-agent-2.1.1.tar.gz"
-  sha256 "ba31c8a5f1f1f3193a6b0de42e003590b58db31b0b91216580ada34299498223"
+  sha256 "3d33411d30d0f38b9306d57a6cce6db855fc8191cdf80aeab9239bbd2251c873"
   license :cannot_represent
 
   def install
