@@ -2,8 +2,8 @@ class AiAgent < Formula
   desc "Inpoint local agent helper CLI"
   homepage "https://ai.inpoint.dev/local-agent"
   version "2.1.1"
-  url "https://ai.inpoint.dev/ai-agent-2.1.1.tar.gz"
-  sha256 "28f030b62236b5d33e7a9b4eba87cdf3ddc2db1e9ab8eb7f0c9c51f5afe74171"
+  url "https://raw.githubusercontent.com/ilyastupin/homebrew-ai-agent/main/ai-agent-2.1.1.tar.gz"
+  sha256 "ad2063e069bfc2ed6a45c38ca3618ac9767a2fc51459bf0f7a5f4e7339048a59"
   license :cannot_represent
 
   def install
