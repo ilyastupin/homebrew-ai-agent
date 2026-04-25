@@ -3,7 +3,7 @@ class InpointClaude < Formula
   homepage "https://ai.inpoint.dev/claude"
   version "0.2.0"
   url "https://raw.githubusercontent.com/ilyastupin/homebrew-ai-agent/master/inpoint-claude-0.2.0.tar.gz"
-  sha256 "b233eb702b108bac8dab59d3944f1d32e8b45d4122187c9dbee41eb44a6c3049"
+  sha256 "a7dc1692b2bfae3a31c8769135f74558c0d90dbc46b32b0ad4de4f571d6a2397"
   license :cannot_represent
 
   depends_on "node"
@@ -22,12 +22,15 @@ class InpointClaude < Formula
 
   def caveats
     <<~EOS
-      Run the agent in foreground:
+      First run (sets and saves the server URL):
         inpoint-claude --server https://ai.inpoint.dev
 
-      The token is printed at startup. Paste it into the "Add agent token"
-      field at https://ai.inpoint.dev/claude. Server URL is saved to
-      ~/.claude-terminal-proxy/agent.json after the first run.
+      After that just:
+        inpoint-claude
+
+      The agent prints its tokens at startup. Paste the share token into
+      the "Paste agent token…" field at https://ai.inpoint.dev/claude
+      and click Add. Config is stored in ~/.claude-terminal-proxy/agent.json.
     EOS
   end
 
