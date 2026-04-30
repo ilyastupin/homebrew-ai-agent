@@ -3,7 +3,7 @@ class InpointClaude < Formula
   homepage "https://ai.inpoint.dev/claude"
   version "0.3.34"
   url "https://raw.githubusercontent.com/ilyastupin/homebrew-ai-agent/master/inpoint-claude-0.3.34.tar.gz"
-  sha256 "0a4c57a7dfb504d855654cbdbf1de40284e15beef5703fa815b6ac6cd396ebb1"
+  sha256 "8f2ac384e67c15e334e69ab5ca8c194a5a5090e70b7f8d640cde8ef2005ad73b"
   license :cannot_represent
 
   depends_on "node"
