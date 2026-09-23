@@ -1,9 +1,9 @@
 class InpointClaude < Formula
   desc "Inpoint Claude Code agent — runs Claude Agent SDK sessions for ai.inpoint.dev"
   homepage "https://ai.inpoint.dev/claude"
-  version "0.4.16"
-  url "https://raw.githubusercontent.com/ilyastupin/homebrew-ai-agent/master/inpoint-claude-0.4.16.tar.gz"
-  sha256 "919c1b5b8466676c86484c41049abcb07ba430dba66a97fac6bfec9e69bec639"
+  version "0.4.17"
+  url "https://raw.githubusercontent.com/ilyastupin/homebrew-ai-agent/master/inpoint-claude-0.4.17.tar.gz"
+  sha256 "546b3daaad43a75a4612f732888a23ac2186f8c5a18479182236913789d07de8"
   license :cannot_represent
 
   depends_on "node"
